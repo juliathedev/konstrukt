@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+}
+.container {
+}
+.header {
+    min-height: 100vh;
+    background-size: 100%;
+    background-image: url("/img/header.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 1440px;
+    height: 768px;
+}
+.header__title {
+}
+.header__subtitle {
+}
+.hero__scroll {
+}
+.about {
+}
+.about__inner {
+}
+.about__title {
+}
+.about__line {
+}
+.about__content {
+}
+.about__text {
+}
+.about__lead {
+}
+.about__description {
+}
+.about__cards {
+}
+.item {
+}
+.item__title {
+}
+.services {
+}
+.services_inner {
+}
+.services_content {
+}
+.services__title {
+}
+.services__line {
+}
+.services__button {
+}
+.services__cards {
+}
+.services__cards-item {
+}
+.image {
+}
+.services__cards-item-title {
+}
+.services__cards-item-text {
+}
+.get-in-touch {
+}
+.get-in-touch__inner {
+}
+.get-in-touch__text {
+}
+.get-in-touch__button {
+}
+.newsletter {
+}
+.newsletter__inner {
+}
+.newsletter__text {
+}
+.newsletter__form {
+}
+.newsletter__form-input {
+}
+.newsletter__form-button {
+}
+.footer__inner {
+}
+.footer__content {
+}
+.title {
+}
+.text {
+}
+.footer__nav {
+}
+.footer__nav-title {
+}
+.footer__nav-links {
+}
+.footer__nav-list {
+}
+.footer__contact {
+}
+.footer__contact-title {
+}
+.footer__contact-address {
+}
+.footer__contact-tel {
+}
+.footer__social {
+}
+.fa {
+}
+.fa-facebook-official {
+}
+.fa-twitter {
+}
+.fa-google {
+}
