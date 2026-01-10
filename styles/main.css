@@ -24,6 +24,11 @@ a {
     text-decoration: none;
     color: var(--text-primary);
 }
+.text__h2 {
+    font-size: var(--fs-lg);
+    font-weight: var(--fw-bold);
+    letter-spacing: 2.31px;
+}
 /* Header */
 
 .header {
@@ -101,6 +106,7 @@ a {
 a:hover {
     color: var(--accent);
 }
+/* About */
 .about {
 }
 .about__inner {
