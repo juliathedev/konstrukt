@@ -25,6 +25,7 @@ body {
 }
 .header__title {
     text-align: center;
+    background-color: var();
 }
 .header__subtitle {
 }

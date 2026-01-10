@@ -1,4 +1,14 @@
 :root {
+    /* Primitive variables */
+    /* Colors */
+    --white: #ffffff;
+    --accent: #00A4E5;
+    --gray: #48555B;
+    --light-silver: #D8D8D8;
+    --light-gray: #E6E6E6;
+    --dark-gray: #171819;
+    --shadow-black: #141A20;
+
     --font-sans: 'Open Sans', Arial, sans-serif;
     --fw-regular: 400;
     --fw-medium: 600;
@@ -18,10 +28,9 @@
     --color-surface: #f6f7f8;
     --color-text: #0b1b1f;
     --color-muted: #6b7a86;
-    --color-primary: #0b5a8a;
+    --color-primary: #48555B;
     --color-primary-600: #094c75;
-    --color-accent: #f5a623;
-    --color-danger: #d64545;
+    --color-accent: ;
 
     --radius-sm: 4px;
     --radius-md: 8px;
