@@ -47,16 +47,24 @@ h1, h2, h3, p {
     font-size: var(--fs-5xl);
     letter-spacing: 5.71px;
     line-height: auto;
-    padding-top: 12px;
+    padding-top: 80px;
 }
 .header__lead {
     font-size: var(--fs-base);
     font-weight: var(--fw-semi-bold);
     text-align: center;
     letter-spacing: 0.2px;
+    padding-top: 6x;
+}
+.link__wrapper{
+    padding-bottom: 71px;
 }
 .text__caption {
-
+    color: var(--text-light);
+    font-size: var(--fs-3xs);
+    font-weight: var(--fw-semi-bold);
+    letter-spacing: 2.5px;
+    text-decoration: none;
 }
 .about {
 }
