@@ -20,6 +20,7 @@ h1, h2, h3, p {
     margin: 0 auto;
     padding: 0 250px;
 }
+/* Header */
 
 .header {
     background-size: 100%;
@@ -38,9 +39,9 @@ h1, h2, h3, p {
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    color: var(--text-light);
 }
 .header__title {
-    color: var(--text-light);
     font-family: Bebas Neue, sans-serif;
     font-weight: var(--fw-regular);
     font-size: var(--fs-5xl);
@@ -49,13 +50,13 @@ h1, h2, h3, p {
     padding-top: 12px;
 }
 .header__lead {
-    color: var(--text-light);
     font-size: var(--fs-base);
     font-weight: var(--fw-semi-bold);
     text-align: center;
     letter-spacing: 0.2px;
 }
-.hero__scroll {
+.text__caption {
+
 }
 .about {
 }
