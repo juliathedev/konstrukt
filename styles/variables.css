@@ -10,12 +10,20 @@
     --shadow-black: #141A20;
 
     /* Typography */
-
     --font-sans: 'Open Sans', Arial, sans-serif;
-    --fw-regular: 400;
-    --fw-medium: 600;
-    --fw-bold: 700;
 
+    /* Font weight */
+    --fw-thin: 100;
+    --fw-extra-light: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-medium: 500;
+    --fw-semi-bold: 600;
+    --fw-bold: 700; 
+    --fw-extra-bold: 800;
+    --fw-black: 900;
+
+    /* Font Sizes */
     --fs-5xl: 60px;
     --fs-4xl: 30px;
     --fs-3lg: 24px;
@@ -26,7 +34,6 @@
     --fs-sm: 14px;
     --fs-xs: 13px;
     --fs-3xs: 12px;
-
     --fs-xss: 11px;
 
     --lh-tight: 1.15;
