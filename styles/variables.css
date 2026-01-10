@@ -1,0 +1,70 @@
+:root {
+    --font-sans: 'Open Sans', Arial, sans-serif;
+    --fw-regular: 400;
+    --fw-medium: 600;
+    --fw-bold: 700;
+
+    --fs-xxl: 64px;
+    --fs-xl: 48px;
+    --fs-lg: 32px;
+    --fs-md: 18px;
+    --fs-sm: 14px;
+    --fs-xs: 12px;
+
+    --lh-tight: 1.15;
+    --lh-default: 1.45;
+
+    --color-bg: #ffffff;
+    --color-surface: #f6f7f8;
+    --color-text: #0b1b1f;
+    --color-muted: #6b7a86;
+    --color-primary: #0b5a8a;
+    --color-primary-600: #094c75;
+    --color-accent: #f5a623;
+    --color-danger: #d64545;
+
+    --radius-sm: 4px;
+    --radius-md: 8px;
+
+    --shadow-sm: 0 1px 3px rgba(11,27,31,0.06);
+    --shadow-md: 0 6px 20px rgba(11,27,31,0.12);
+
+    --space-xxs: 4px;
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 24px;
+    --space-lg: 32px;
+    --space-xl: 48px;
+
+    --transition-fast: 150ms ease;
+}
+
+/* Component tokens */
+.btn {
+    display: inline-block;
+    font-family: var(--font-sans);
+    font-weight: var(--fw-medium);
+    font-size: var(--fs-sm);
+    line-height: var(--lh-default);
+    color: #fff;
+    background: var(--color-primary);
+    padding: var(--space-sm) var(--space-md);
+    border: 0;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    transition: background var(--transition-fast), transform var(--transition-fast);
+}
+.btn:hover { background: var(--color-primary-600); transform: translateY(-1px); }
+
+/* Hero background helper */
+.hero-bg { background-color: var(--color-surface); color: var(--color-text); }
+
+/* Typography helpers */
+.text-h1 { font-size: var(--fs-xxl); line-height: var(--lh-tight); font-weight: var(--fw-bold); }
+.text-h2 { font-size: var(--fs-xl); line-height: var(--lh-tight); font-weight: var(--fw-bold); }
+.text-lead { font-size: var(--fs-lg); line-height: var(--lh-default); font-weight: var(--fw-medium); color: var(--color-muted); }
+.text-body { font-size: var(--fs-md); line-height: var(--lh-default); color: var(--color-text); }
+
+/* Utility spacing */
+.u-mt-md { margin-top: var(--space-md); }
+.u-mb-md { margin-bottom: var(--space-md); }

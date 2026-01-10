@@ -1,3 +1,5 @@
+@import url('variables.css');
+
 html {
     box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ html {
 }
 body {
     margin: 0;
+    font-family: 'OpenSans', sans-serif;
 }
 .container {
     width: 100%;
@@ -21,6 +24,7 @@ body {
     height: 768px;
 }
 .header__title {
+    text-align: center;
 }
 .header__subtitle {
 }
