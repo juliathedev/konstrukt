@@ -66,11 +66,14 @@ h1, h2, h3, p {
     letter-spacing: 2.5px;
     text-decoration: none;
 }
-.nav {
+.nav__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 250px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
     background-color: var(--bg-light);
 }
 .about {
