@@ -150,11 +150,16 @@ a:hover {
 }
 .item__title {
 }
+/* Services */
+
 .services {
+    margin-top: 92px;
 }
 .services_inner {
 }
 .services_content {
+    display: flex;
+    flex-direction: row;
 }
 .services__title {
 }
