@@ -113,6 +113,12 @@ a {
 a:hover {
     color: var(--accent);
 }
+.text-body {
+    font-size: var(--fs-md);
+    font-weight: var(--fw-regular);
+    line-height: var(--lh-default);
+    color: var(--text-primary);
+}
 /* About */
 .about {
     margin-top: 58px;
