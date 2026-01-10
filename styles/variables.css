@@ -16,12 +16,13 @@
     --fw-medium: 600;
     --fw-bold: 700;
 
-    --fs-xxl: 64px;
+    --fs-xxl: 60px;
     --fs-xl: 48px;
     --fs-lg: 32px;
-    --fs-md: 18px;
+    --fs-md: 16px;
     --fs-sm: 14px;
     --fs-xs: 12px;
+    --fs-xss: 11px;
 
     --lh-tight: 1.15;
     --lh-default: 1.45;
