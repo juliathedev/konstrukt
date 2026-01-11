@@ -204,12 +204,19 @@ a:hover {
 .services__cards-item {
     width: 295px;
     height: 330px;
+    border: 1px solid var(--border, #E6E6E6);
+    padding: 38px 23px 29px;
 }
-.image {
+.services__cards-image {
     width: 65.625px;
     height: 75px;
 }
 .services__cards-item-title {
+    color: var(--gray, #48555B);
+    font-size: var(--fs-base, 16px);
+    font-weight: var(--fw-bold);
+    line-height: 24px/16;
+    letter-spacing: 0.427px/16;
 }
 .services__cards-item-text {
 }
