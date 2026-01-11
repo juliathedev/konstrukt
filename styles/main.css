@@ -116,8 +116,8 @@ a:hover {
 }
 .btn {
     text-transform: uppercase;
-    font-size: var(--fs-xs);
-    font-weight: var(--fw-bold);
+    font-size: 13px;
+    font-weight: 700;
     background-color: var(--accent);
     color: var(--white);
     border: none;
