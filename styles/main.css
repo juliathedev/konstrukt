@@ -148,8 +148,8 @@ a:hover {
 }
 .about__lead {
     color: var(--text-primary);
-    font-size: var(--fs-xl);
-    font-weight: var(--fw-bold);
+    font-size: 20px;
+    font-weight: 700;
 }
 .about__description {
 }
@@ -179,8 +179,8 @@ a:hover {
 }
 .text__caption {
     color: var(--text-primary);
-    font-size: var(--fs-3xs);
-    font-weight: var(--fw-regular);
+    font-size: 11px;
+    font-weight: 600;
     letter-spacing: calc(0.2px/16);
     max-width: 405px;
     margin-right: 31px;
@@ -213,8 +213,8 @@ a:hover {
 }
 .services__cards-item-title {
     color: var(--text-primary);
-    font-size: var(--fs-base, 16px);
-    font-weight: var(--fw-bold);
+    font-size: 16px;
+    font-weight: 700;
     line-height: 24px;
     width: 250px;
     padding: 25px 0 13px;
