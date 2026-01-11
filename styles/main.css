@@ -14,6 +14,7 @@ h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
+
 .container {
     width: 100%;
     max-width: 1440px;
@@ -227,6 +228,7 @@ a:hover {
     width: 250px;
     padding: 25px 0 13px;
 }
+/* Get in touch */
 .get-in-touch {
     background-image: url("/assets/get-in-touch.png");
     background-size: cover;
@@ -252,13 +254,27 @@ a:hover {
     margin: 35px auto 0;
     padding: 14px 30px;
 }
+/* Newsletter */
 .newsletter {
+    background-color: var(--dark-gray, #171819);
+    max-width: 1440px;
+    margin: 0 auto;
 }
 .newsletter__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
 }
 .newsletter__text {
+    color: var(--white, #FFF);
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.846px;
 }
 .newsletter__form {
+
 }
 .newsletter__form-input {
 }
