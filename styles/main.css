@@ -66,8 +66,8 @@ a {
     padding-top: 80px;
 }
 .header__lead {
-    font-size: var(--fs-base);
-    font-weight: var(--fw-semi-bold);
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
     letter-spacing: 0.2px;
     padding-top: 6x;
