@@ -116,8 +116,11 @@ a:hover {
 }
 .btn {
     text-transform: uppercase;
-    font-size: var(--fs-3xs);
-    padding: 10px 20px;
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    background-color: var(--accent);
+    color: var(--white);
+    border: none;
 }
 /* About */
 .about {
