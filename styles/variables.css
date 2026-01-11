@@ -22,4 +22,26 @@
     --fw-bold: 700; 
     --fw-extra-bold: 800;
     --fw-black: 900;
+
+    /* Font Sizes */
+    --fs-5xl: 60px;
+    --fs-4xl: 30px;
+    --fs-3xl: 24px;
+    --fs-2xl: 22px;
+    --fs-xl: 20px;
+    --fs-lg: 18px;
+    --fs-base: 16px;
+    --fs-sm: 14px;
+    --fs-xs: 13px;
+    --fs-2xs: 12px;
+    --fs-3xs: 11px;
+
+    /* Semantic colors */
+    --bg-light:var(--white);
+    --bg-dark:var(--dark-gray);
+    --bg-footer:var(--shadow-black);
+    --text-light:var(--white);
+    --text-primary:var(--gray);
+    --surface:var(--light-silver);
+    --border:var(--light-gray);
 }
