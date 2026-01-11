@@ -227,7 +227,6 @@ a:hover {
     width: 250px;
     padding: 25px 0 13px;
 }
-
 .get-in-touch {
     background-image: url("/assets/get-in-touch.png");
     background-size: cover;
@@ -236,10 +235,7 @@ a:hover {
     height: 499px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    margin: 0 auto;
-}
-.get-in-touch__inner {
+    padding-top: 120px;
 }
 .get-in-touch__text {
     color: var(--gray, #48555B);
@@ -252,6 +248,9 @@ a:hover {
     width: 350px;
 }
 .get-in-touch__button {
+    display: flex;
+    margin: 35px auto 0;
+    padding: 14px 30px;
 }
 .newsletter {
 }
