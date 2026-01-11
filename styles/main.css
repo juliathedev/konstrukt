@@ -25,8 +25,8 @@ a {
     color: var(--text-primary);
 }
 .text__h2 {
-    font-size: var(--fs-lg);
-    font-weight: var(--fw-bold);
+    font-size: 18px;
+    font-weight: 700;
     letter-spacing: 2.31px;
 }
 .line {
@@ -59,8 +59,8 @@ a {
 }
 .header__title {
     font-family: Bebas Neue, sans-serif;
-    font-weight: var(--fw-regular);
-    font-size: var(--fs-5xl);
+    font-weight: 400;
+    font-size: 60px;
     letter-spacing: 5.71px;
     line-height: auto;
     padding-top: 80px;
@@ -212,13 +212,15 @@ a:hover {
     height: 75px;
 }
 .services__cards-item-title {
-    color: var(--gray, #48555B);
+    color: var(--text-primary);
     font-size: var(--fs-base, 16px);
     font-weight: var(--fw-bold);
-    line-height: 24px/16;
-    letter-spacing: 0.427px/16;
+    line-height: 24px;
+    width: 250px;
+    padding: 25px 0 13px;
 }
 .services__cards-item-text {
+
 }
 .get-in-touch {
 }
