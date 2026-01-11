@@ -87,8 +87,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: var(--bg-light);
-    border: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
     max-width: 1440px;
     margin: 0 auto;
 }
