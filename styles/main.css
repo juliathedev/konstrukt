@@ -80,7 +80,7 @@ a {
 .text__caption {
     color: var(--text-light);
     font-size: 11px;
-    font-weight: 200;
+    font-weight: 400;
     letter-spacing: 2.5px;
     text-decoration: none;
 }
@@ -308,11 +308,15 @@ a:hover {
     grid-template-columns: repeat(4, 1fr);
     padding-top: 42px;
 }
-.company__title {
-    
+.footer__title {
+    color: var(--white, #FFF);
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 0.846px;
+    padding-bottom: 19px;
 }
-.footer__logo {
-
+.company__text {
+    color: var(--white, #FFF);
 }
 .footer__grid-company {
 
