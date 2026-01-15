@@ -40,8 +40,6 @@ a {
 .text__caption {
     font-size: 11px;
     font-weight: 400;
-    font-style: normal;
-    line-height: 19px; /* 172.727% */
 }
 /* Header */
 
@@ -189,6 +187,7 @@ a:hover {
     max-width: 405px;
     margin-right: 31px;
     letter-spacing: 0.2px;
+    line-height: 19px;
 }
 .services__content-left {
     display: flex;
@@ -322,6 +321,7 @@ a:hover {
     width: 250px;
     letter-spacing: 0.85px;
     padding-top: 15px;
+    line-height: 19px;
 }
 .footer__nav {
     display: grid;
@@ -344,25 +344,30 @@ a:hover {
     white-space: nowrap;
 }
 .footer__nav-list:last-child {
-    margin-left: 38px;
-    margin-right: 58px;
+    margin-left: 31px;
+    margin-right: 50px;
 }
-
-.footer__nav {
+.footer__content {
+    color: var(--white);
+    padding-top: 15px;
 }
-.footer__nav-title {
+.footer__contact-address {
+    font-style: normal;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.846px;
+}
+.footer__content-links {
+    display: flex;
+    flex-direction: column;
+    line-height: 16px; /* 145.455% */
+    letter-spacing: 0.846px;
 }
 .footer__nav-links {
 }
 .footer__nav-list {
 }
 .footer__contact {
-}
-.footer__contact-title {
-}
-.footer__contact-address {
-}
-.footer__contact-tel {
+
 }
 .footer__social {
 }
