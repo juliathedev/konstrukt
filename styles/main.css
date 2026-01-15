@@ -369,7 +369,13 @@ a:hover {
 .footer__contact {
 
 }
-.footer__social {
+.footer__grid-social {
+    display: flex;
+    justify-content: space-between;
+    width: 87px;
+    margin-left: 36px;
+    padding-top: 26px;
+    color: var(--white, #FFF);
 }
 .fa {
 }
