@@ -29,13 +29,13 @@ a {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 2.31px;
+    color: var(--text-primary);
 }
 .line {
     display: flex;
     width: 55px;
     height: 4px;
     background-color: var(--accent);
-    margin-top: 8px;
 }
 .text__caption {
     font-size: 11px;
@@ -128,6 +128,11 @@ a:hover {
     line-height: 23px; /* 176.923% */
     letter-spacing: 0.188px;
 }
+.text__scroll {
+    letter-spacing: 0.846px;
+    text-transform: uppercase;
+    color: var(--text-light);
+}
 /* About */
 .about {
     margin-top: 58px;
@@ -141,13 +146,16 @@ a:hover {
 .about__inner {
 }
 .about__title {
+    padding-bottom: 13px;
 }
 .about__line {
+    
 }
 .about__content {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    padding-top: 80px;
 }
 .about__text {
     max-width: 253px;
@@ -156,6 +164,9 @@ a:hover {
     color: var(--text-primary);
     font-size: 20px;
     font-weight: 700;
+}
+.lead-highlight {
+    color: var(--accent);
 }
 .about__description {
 }
@@ -302,6 +313,7 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     padding-top: 38px;
+    padding-bottom: 40px;
 }
 .footer__grid-company {
     margin-right: 71px;
@@ -376,4 +388,15 @@ a:hover {
     margin-left: 36px;
     padding-top: 26px;
     color: var(--white, #FFF);
+}
+.copyright {
+    background-color: var(--dark-gray);
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+.copyright__content {
+    color:  var(--white);
+    text-align: center;
+    margin: 0 auto;
+    letter-spacing: 0.846px;
 }
