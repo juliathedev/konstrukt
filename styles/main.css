@@ -155,7 +155,7 @@ a:hover {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 80px;
+    padding-top: 66px;
 }
 .about__text {
     max-width: 253px;
