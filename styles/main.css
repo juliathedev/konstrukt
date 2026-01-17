@@ -152,22 +152,14 @@ a:hover {
 .about__title {
     padding-bottom: 13px;
 }
-.about__text {
-}
-
-.about__line {
-    
-}
-.about__text {
-}
 .about__lead {
     color: var(--text-primary);
     font-size: 20px;
     font-weight: 700;
     font-size: 20px;
     letter-spacing: 0.188px;
-    margin-bottom: 30px;
-    padding-right: 45px;
+    margin-bottom: 40px;
+    padding-right: 25px;
 }
 .lead-highlight {
     color: var(--accent);
@@ -177,15 +169,34 @@ a:hover {
     padding-right: 25px;
 }
 .about__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-top: 28px;
 }
-.item {
+.about__cards-item {
+    position: relative;
+    display: inline-block;
+}
+.about__cards-img {
+    display: block;
+    width: 140px;
+    height: 225px;
 }
 .item__title {
+    position: absolute;
+    top: 15px;
+    left: 14px;
+    color: var(--white);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 29px; /* 120.833% */
+    letter-spacing: 0.188px;
 }
 /* Services */
 
 .services {
-    margin-top: 92px;
+    margin-top: 120px;
     margin-bottom: 110px;
 }
 .services_content {
@@ -202,7 +213,7 @@ a:hover {
 .services__content-description {
     color: var(--gray);
     max-width: 405px;
-    margin-right: 31px;
+    margin-right: 58px;
     letter-spacing: 0.2px;
     line-height: 19px;
 }
@@ -211,7 +222,7 @@ a:hover {
     flex-direction: column;
 }
 .services__title {
-    padding-bottom: 10pm;
+    padding-bottom: 10px;
 }
 .services__button {
     padding: 11px 29px;
@@ -226,7 +237,7 @@ a:hover {
     width: 295px;
     height: 330px;
     border: 1px solid var(--border, #E6E6E6);
-    padding: 38px 23px 29px;
+    padding: 28px 29px;
 }
 .services__cards-image {
     width: 65.625px;
@@ -338,7 +349,7 @@ a:hover {
     color: var(--white, #FFF);
     width: 250px;
     letter-spacing: 0.85px;
-    padding-top: 15px;
+    padding-top: 12px;
     line-height: 19px;
 }
 .footer__nav {
@@ -380,13 +391,6 @@ a:hover {
     line-height: 16px; /* 145.455% */
     letter-spacing: 0.846px;
 }
-.footer__nav-links {
-}
-.footer__nav-list {
-}
-.footer__contact {
-
-}
 .footer__grid-social {
     display: flex;
     justify-content: space-between;
@@ -397,7 +401,7 @@ a:hover {
 }
 .copyright {
     background-color: var(--dark-gray);
-    padding-top: 22px;
+    padding-top: 18px;
     padding-bottom: 23px;
 }
 .copyright__content {
