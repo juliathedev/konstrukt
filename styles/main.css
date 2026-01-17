@@ -137,6 +137,10 @@ a:hover {
 .about {
     margin-top: 58px;
 }
+.about__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .about__flex {
     display: flex;
     justify-content: space-between;
