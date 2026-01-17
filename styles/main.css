@@ -136,20 +136,16 @@ a:hover {
 .about {
     margin-top: 58px;
 }
-.about__grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 80px;
-    margin-top: 55px;
-}
-.about__flex {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-}
 .about__title {
     padding-bottom: 13px;
+    text-align: center;
+}
+.about__title:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent);
+    display: block;
 }
 .about__lead {
     color: var(--text-primary);
@@ -162,6 +158,11 @@ a:hover {
 }
 .lead-highlight {
     color: var(--accent);
+}
+.about__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .about__description {
     width: 405.076px;
@@ -408,4 +409,13 @@ a:hover {
     text-align: center;
     margin: 0 auto;
     letter-spacing: 0.846px;
+}
+/* Laptop*/
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 50px;
+    }
+    .about__inner {
+        flex-wrap: wrap;
+    }
 }
