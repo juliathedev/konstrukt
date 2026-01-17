@@ -140,6 +140,8 @@ a:hover {
 .about__grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 80px;
+    margin-top: 55px;
 }
 .about__flex {
     display: flex;
@@ -147,32 +149,32 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
-.about__inner {
-}
 .about__title {
     padding-bottom: 13px;
 }
+.about__text {
+}
+
 .about__line {
     
 }
-.about__content {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding-top: 66px;
-}
 .about__text {
-    max-width: 253px;
 }
 .about__lead {
     color: var(--text-primary);
     font-size: 20px;
     font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.188px;
+    margin-bottom: 30px;
+    padding-right: 45px;
 }
 .lead-highlight {
     color: var(--accent);
 }
 .about__description {
+    width: 405.076px;
+    padding-right: 25px;
 }
 .about__cards {
 }
