@@ -39,7 +39,6 @@ a {
 }
 .text__caption {
     font-size: 11px;
-    font-weight: 400;
 }
 /* Header */
 
@@ -51,17 +50,13 @@ a {
     height: 768px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding-top: 41px;
-    margin: 0 auto;
 }
 .header__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    color: var(--text-light);
+    margin: 0 auto;
+    margin-top: 220px;
+    color: var(--text-light); 
 }
 .header__title {
     font-family: Bebas Neue, sans-serif;
@@ -78,7 +73,12 @@ a {
     letter-spacing: 0.2px;
 }
 .link__wrapper{
-    padding-bottom: 71px;
+    display: flex;
+    padding-top: 225px;
+}
+.text__scroll {
+    letter-spacing: 3.7px;
+    font-weight: 600;
 }
 .nav {
     display: flex;
@@ -177,7 +177,6 @@ a:hover {
     display: flex;
     align-items: flex-end;
     margin-top: 74px;
-
 }
 .about__cards-item {
     font-size: 24px;
@@ -187,7 +186,7 @@ a:hover {
     padding: 15px;
     margin-right: 20px;
 }
-.about__cards-item:nth-last-child {
+.about__cards-item:last-child {
     margin-right: 0;
 }
 .img {
@@ -224,6 +223,7 @@ a:hover {
     margin-right: 58px;
     letter-spacing: 0.2px;
     line-height: 19px;
+    font-weight: 400;
 }
 .services__content-left {
     display: flex;
@@ -231,6 +231,14 @@ a:hover {
 }
 .services__title {
     padding-bottom: 10px;
+}
+.services__title:after {
+    content: '';
+    width: 50px;
+    height: 2px;
+    background-color: var(--accent);
+    display: block;
+    margin-top: 10px;
 }
 .services__button {
     padding: 11px 29px;
@@ -264,7 +272,8 @@ a:hover {
     background-image: url("/assets/get-in-touch.png");
     background-size: cover;
     background-position: center;
-    width: 100%;
+    background-color:var(--dark-gray);
+    max-width: 100%;
     height: 496px;
     display: flex;
     flex-direction: column;
@@ -327,6 +336,10 @@ a:hover {
 .newsletter__form-button {
     width: 150px;
     height: 38px;
+}
+.form__title {
+    display: flex;
+    flex-direction: column;
 }
 /* Footer */
 
@@ -424,14 +437,105 @@ a:hover {
         flex-wrap: wrap;
     }
 }
+/* Laptop */
 @media (max-width: 1024px) {
     .container {
         padding: 0 50px;
     }
+    .header {
+        height: 541px;
+    }
+    .header__content {
+        margin-top: 100px;
+    }
+    .link__wrapper{
+        padding-top: 150px;
+    }
+    .about__lead {
+        padding-top: 25px;
+        margin-bottom: 20px;
+    }
     .about__cards {
         flex-wrap: wrap;
     }
+    .services_content {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
+/* Tablet */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 50px;
+    }
+    .header {
+        height: 409px;
+    }
+    .header__content {
+        margin-top: 15px;
+    }
+    .link__wrapper{
+        padding-top: 120px;
+    }
+    .about__cards {
+        flex-wrap: wrap;
+        align-items: center;
+        margin-left: 30px;
+        margin-top: 34px;
+    }
+    .about__text-wrap {
+        max-width: 402px;
+        margin-right: 50px;
+        margin: 0 auto;
+    }
+    .services__title {
+        text-align: center;
+    }
+    .services__title:after {
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .services__content-right {
+        flex-direction: column;
+    }
+    .services__content-description {
+        text-align: center;
+        margin: 0 auto;
+        padding-left: 25px;
+        margin-bottom: 25px;
+    }
+    .services__cards {
+        margin-top: 40px;
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+    .get-in-touch {
+        padding-top: 55px;
+        /* padding-bottom: 231px; */
+    }
+    .newsletter__inner {
+        flex-direction: column;
+        align-items: center;
+    }
+    .form__title {
+        margin-bottom: 15px;
+        padding: 0;
+    }
+    .newsletter__form {
+        flex-direction: column;
+        align-items: center;
+        padding-right: 0;
+        margin: 0 auto;
+    }
+    .newsletter__form-input {
+        margin-bottom: 15px;
+    }
+    .footer__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media (max-width: 500px) {
     .about__cards {
         flex-wrap: wrap;
