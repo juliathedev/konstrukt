@@ -14,7 +14,6 @@ h1, h2, h3, h4, p {
     margin: 0;
     padding: 0;
 }
-
 .container {
     width: 100%;
     max-width: 1440px;
@@ -46,7 +45,6 @@ a {
     width: 50px;
     height: 50px;
     cursor: pointer;
-    /* padding: 0; */
     background-color: var(--accent-color);
     border: none;
     flex-direction: column;
@@ -76,7 +74,10 @@ a {
     padding-top: 41px;
 }
 .header__content {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin-top: 220px;
     color: var(--text-light); 
 }
@@ -491,6 +492,9 @@ a:hover {
     .container {
         padding: 0 50px;
     }
+    .burger {
+        display: flex;
+    }
     .header {
         height: 409px;
     }
@@ -561,22 +565,41 @@ a:hover {
 @media (max-width: 425px) {
     .container {
         padding: 0 20px;
+        max-width: 100%;
     }
     .burger {
         display: flex;
     }
+    .header__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 0 20px;
+    }
     .header {
-        height: 300px;
+        max-width: 100%;
+        height: 100vh;
+        padding-top: calc(env(safe-area-inset-top) + 15px); 
+        background-size: cover;
+        background-position: center;
     }
     .header__content {
-        margin-top: 10px;
+        outline: 2px solid red;
     }
     .header__title {
-        font-size: 30px;
+        font-size: 56px; 
         letter-spacing: 2.86px;
+        text-align: center;
+        margin-top: 80px;
     }
-    .link__wrapper{
-        padding-top: 80px;
+    .header__lead {
+        font-size: 14px;
+        padding-top: 8px;
+    }
+    .link__wrapper,
+    .nav {
+        display: none;
     }
     .about__lead {
         font-size: 18px;
@@ -587,7 +610,7 @@ a:hover {
         padding-left: 0;
     }
     .about__cards {
-        flex-wrap: wrap;
+        flex-direction: column;
         margin-left: 0;
     }
     .about__cards-item {
@@ -595,5 +618,56 @@ a:hover {
     }
     .about__cards-item:last-child {
         margin-bottom: 0;
+    }
+    .services {
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .get-in-touch {
+        height: 360px;
+    }
+    .footer {
+        max-width: 100%;
+        display: grid;
+    }
+    .footer__grid {
+        grid-template-columns: 1fr;
+        place-self: center;
+    }
+    .company__text {
+        display: none;
+    }
+    .footer__title {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .footer__nav {
+        grid-template-columns: 1fr;
+    }
+    .footer__nav-list:last-child {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .footer__nav-list:first-child {
+        margin-right: 0;
+    }
+    .footer__grid-company {
+        margin-right: 0;
+    }
+    .footer__logo {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer__nav-list {
+        text-align: center;
+        margin-top: 8px;
+    }
+    .footer__content {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .footer__grid-social {
+        margin: 0 auto;
+        margin-top: 15px;
     }
 }
