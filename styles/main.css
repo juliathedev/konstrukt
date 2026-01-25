@@ -275,8 +275,8 @@ a:hover {
     gap: 28px;
 }
 .services__cards-item {
-    width: 295px;
-    height: 330px;
+    max-width: 100%;
+    max-height: 100%;
     border: 1px solid var(--border, #E6E6E6);
     padding: 33px 26px;
 }
@@ -289,7 +289,7 @@ a:hover {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    width: 250px;
+    max-width: 100%;
     padding: 25px 0 13px;
 }
 /* Get in touch */
@@ -313,7 +313,7 @@ a:hover {
     line-height: 36px; /* 120% */
     letter-spacing: 0.15px;
     margin: 0 auto;
-    width: 350px;
+    max-width: 100%;
 }
 .get-in-touch__button {
     display: flex;
@@ -352,7 +352,7 @@ a:hover {
     padding-right: 90px;
 }
 .newsletter__form-input {
-    width: 250px;
+    max-width: 100%;
     height: 38px;
     padding-left: 13px;
     border: 1px solid #979797;
@@ -847,5 +847,38 @@ a:hover {
     .footer__grid-social {
         margin: 0 auto;
         margin-top: 15px;
+    }
+}
+/* Mobile M */
+@media (max-width: 375px) {
+    .get-in-touch{
+        background-color: var(--bg-light);
+    }
+}
+/* Mobile S */
+@media (max-width: 320px) {
+    .container {
+        padding: 0 10px;
+    }
+    .services__cards {
+        width: 100%;
+    }
+    .services__cards-item-title {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    .services__cards-item {
+        padding: 15px 15px;
+        max-width: 100%;
+    }
+    .services__cards-item-text{
+        font-size: 12px;
+        padding-right: 30px;
+    }
+    .get-in-touch{
+        background-color: var(--bg-light);
+    }
+    .form__title {
+        text-align: center;
     }
 }
