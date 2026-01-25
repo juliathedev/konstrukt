@@ -305,7 +305,7 @@ a:hover {
 }
 /* Get in touch */
 .get-in-touch {
-    background-image: url("../assets/get-in-touch.png");
+    background-image: url("assets/get-in-touch.png");
     background-size: cover;
     background-position: center;
     background-color:var(--dark-gray);
