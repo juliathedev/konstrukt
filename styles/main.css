@@ -2,6 +2,7 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -39,7 +40,14 @@ a {
 .text__caption {
     font-size: 11px;
 }
+.sidenav {
+    display: none;
+}
 /* Header */
+.text__scroll {
+    cursor: pointer;
+    scroll-behavior: smooth;
+}
 .burger {
     display: none;
     width: 50px;
@@ -66,7 +74,7 @@ a {
     background-size: 100%;
     background-image: url("/assets/header.jpg");
     background-repeat: no-repeat;
-    max-width: 1440px;
+    max-width: 100%;
     height: 768px;
     display: flex;
     flex-direction: column;
@@ -289,8 +297,11 @@ a:hover {
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
-    max-width: 100%;
+    width: 250px;
     padding: 25px 0 13px;
+}
+.services__cards-item-text {
+    padding-right: 23px;
 }
 /* Get in touch */
 .get-in-touch {
@@ -456,16 +467,10 @@ a:hover {
     margin: 0 auto;
     letter-spacing: 0.846px;
 }
-/* Laptop L*/
-@media (max-width: 1440px) {
-    .about__inner {
-        flex-wrap: wrap;
-    }
-}
 /* Laptop */
 @media (max-width: 1024px) {
     .container {
-        padding: 0 50px;
+        padding: 0 30px;
     }
     .header {
         height: 541px;
@@ -476,6 +481,9 @@ a:hover {
     .link__wrapper{
         padding-top: 150px;
     }
+    .about__inner {
+        flex-wrap: wrap;
+    }
     .about__lead {
         padding-top: 25px;
         margin-bottom: 20px;
@@ -484,7 +492,6 @@ a:hover {
         flex-wrap: wrap;
     }
     .services_content {
-        display: flex;
         flex-direction: column;
     }
 
@@ -493,9 +500,6 @@ a:hover {
 @media (max-width: 768px) {
     .container {
         padding: 0 50px;
-    }
-    .burger {
-        display: flex;
     }
     .header {
         height: 409px;
@@ -537,6 +541,7 @@ a:hover {
         margin-top: 40px;
         grid-template-columns: 1fr;
         justify-items: center;
+        padding: 0 20px;
     }
     .get-in-touch {
         padding-top: 55px;
@@ -566,6 +571,9 @@ a:hover {
 /* Mobile L */
 @media (max-width: 425px) {
     /* Menu */
+    .sidenav {
+        display: block;
+    }
     ul#slide-out:not(.browser-default) {
         padding-left: 0;
         list-style-type: none;
@@ -801,6 +809,9 @@ a:hover {
         margin-top: 80px;
         margin-bottom: 80px;
     }
+    .services__cards{
+        padding: 0 20px;
+    }
     .get-in-touch {
         height: 360px;
     }
@@ -859,6 +870,9 @@ a:hover {
 @media (max-width: 320px) {
     .container {
         padding: 0 10px;
+    }
+    .header__lead {
+        padding: 10px 7px;
     }
     .services__cards {
         width: 100%;
