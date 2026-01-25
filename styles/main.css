@@ -578,11 +578,6 @@ a:hover {
         text-decoration: none;
         -webkit-tap-highlight-color: transparent;
     }
-
-    /* .sidenav {
-        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-                box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-    } */
     .sidenav {
         -webkit-box-shadow: 0 2px 2px 0 rgba(164, 229, 100, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
                 box-shadow: 0 2px 2px 0 rgba(164, 229, 100, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -674,27 +669,7 @@ a:hover {
     }
 
     .sidenav li > a:hover {
-        background-color: rgba(0, 164, 229, 0.5);
-    }
-
-    .sidenav li > a.btn, .sidenav li > a.btn-large, .sidenav li > a.btn-small, .sidenav li > a.btn-large, .sidenav li > a.btn-flat, .sidenav li > a.btn-floating {
-        margin: 10px 15px;
-    }
-
-    .sidenav li > a.btn, .sidenav li > a.btn-large, .sidenav li > a.btn-small, .sidenav li > a.btn-large, .sidenav li > a.btn-floating {
-        color: #fff;
-    }
-
-    .sidenav li > a.btn-flat {
-        color: #343434;
-    }
-
-    .sidenav li > a.btn:hover, .sidenav li > a.btn-large:hover, .sidenav li > a.btn-small:hover, .sidenav li > a.btn-large:hover {
-        background-color: #2bbbad;
-    }
-
-    .sidenav li > a.btn-floating:hover {
-        background-color: #26a69a;
+        background-color: rgba(0, 164, 229, 0.56);
     }
 
     .sidenav li > a > i,
@@ -707,7 +682,6 @@ a:hover {
         width: 24px;
         color: rgba(0, 0, 0, 0.54);
     }
-
     .sidenav .divider {
         margin: 8px 0 0 0;
     }
@@ -720,7 +694,6 @@ a:hover {
         overflow: hidden;
         background-color: #e0e0e0;
     }
-
     .sidenav .subheader {
         cursor: initial;
         pointer-events: none;
@@ -729,17 +702,14 @@ a:hover {
         font-weight: 500;
         line-height: 48px;
     }
-
     .sidenav .subheader:hover {
         background-color: transparent;
     }
-
     .sidenav .user-view {
         position: relative;
         padding: 32px 32px 0;
         margin-bottom: 8px;
     }
-
     .sidenav .user-view > a {
         height: auto;
         padding: 0;
